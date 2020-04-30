@@ -1,0 +1,219 @@
+
+
+git status
+git init - Creat git reposistroy
+git add --a - All the file add
+git commit -m - Initial commit
+git log - All commit and press q to exit
+git add first.txt - Particular file add
+git commit -m - New commit initializ new filess
+rm -rf .git  - All the git file delete.
+
+ touch error.log - New file generate
+touch .gitignor -New file error file ignor
+.gitignor file type error.log then all problem sorted
+.gitignor file type *.log then all log file delete
+empty folder git untrack
+git add . -all the file add
+git diff compare working directory to stageing area
+git diff --stage
+git add . -stage condition
+git commit -a -m "Direct Commit"  -All track file ka stage kora commit file kora dai, ja kano change file ka skipp kora dai and commit kora dai
+git rm third.txt -Delete file this command
+git mv first.txt priyam.txt -Rename file priyam.txt 
+git rm --cached priyam.txt -this command untrack the file,then .gitignor use
+git log -p -all the file delete and which  file remove and add which file all details show
+git log -p -2 -first 2 file details show
+git log --stat -All the file details show but very short all the details show
+git log --pretty=oneline -All the commit is here
+git log --pretty=short -all the commit details short
+git log --pretty=full -all the commit details full
+git log --since=2.days -2 din ager ar details
+git log --since=2.weeks
+git log --since=2.month
+
+Placeholders that expand to information extracted from the commit:
+%H
+commit hash
+
+%h
+abbreviated commit hash
+
+%T
+tree hash
+
+%t
+abbreviated tree hash
+
+%P
+parent hashes
+
+%p
+abbreviated parent hashes
+
+%an
+author name
+
+%aN
+author name (respecting .mailmap, see git-shortlog[1] or git-blame[1])
+
+%ae
+author email
+
+%aE
+author email (respecting .mailmap, see git-shortlog[1] or git-blame[1])
+
+%al
+author email local-part (the part before the @ sign)
+
+%aL
+author local-part (see %al) respecting .mailmap, see git-shortlog[1] or git-blame[1])
+
+%ad
+author date (format respects --date= option)
+
+%aD
+author date, RFC2822 style
+
+%ar
+author date, relative
+
+%at
+author date, UNIX timestamp
+
+%ai
+author date, ISO 8601-like format
+
+%aI
+author date, strict ISO 8601 format
+
+%as
+author date, short format (YYYY-MM-DD)
+
+%cn
+committer name
+
+%cN
+committer name (respecting .mailmap, see git-shortlog[1] or git-blame[1])
+
+%ce
+committer email
+
+%cE
+committer email (respecting .mailmap, see git-shortlog[1] or git-blame[1])
+
+%cl
+author email local-part (the part before the @ sign)
+
+%cL
+author local-part (see %cl) respecting .mailmap, see git-shortlog[1] or git-blame[1])
+
+%cd
+committer date (format respects --date= option)
+
+%cD
+committer date, RFC2822 style
+
+%cr
+committer date, relative
+
+%ct
+committer date, UNIX timestamp
+
+%ci
+committer date, ISO 8601-like format
+
+%cI
+committer date, strict ISO 8601 format
+
+%cs
+committer date, short format (YYYY-MM-DD)
+
+%d
+ref names, like the --decorate option of git-log[1]
+
+%D
+ref names without the " (", ")" wrapping.
+
+%S
+ref name given on the command line by which the commit was reached (like git log --source), only works with git log
+
+%e
+encoding
+
+%s
+subject
+
+%f
+sanitized subject line, suitable for a filename
+
+%b
+body
+
+%B
+raw body (unwrapped subject and body)
+
+%N
+commit notes
+
+%GG
+raw verification message from GPG for a signed commit
+
+%G?
+show "G" for a good (valid) signature, "B" for a bad signature, "U" for a good signature with unknown validity, "X" for a good signature that has expired, "Y" for a good signature made by an expired key, "R" for a good signature made by a revoked key, "E" if the signature cannot be checked (e.g. missing key) and "N" for no signature
+
+%GS
+show the name of the signer for a signed commit
+
+%GK
+show the key used to sign a signed commit
+
+%GF
+show the fingerprint of the key used to sign a signed commit
+
+%GP
+show the fingerprint of the primary key whose subkey was used to sign a signed commit
+
+%GT
+show the trust level for the key used to sign a signed commit
+
+%gD
+reflog selector, e.g., refs/stash@{1} or refs/stash@{2 minutes ago}; the format follows the rules described for the -g option. The portion before the @ is the refname as given on the command line (so git log -g refs/heads/master would yield refs/heads/master@{0}).
+
+%gd
+shortened reflog selector; same as %gD, but the refname portion is shortened for human readability (so refs/heads/master becomes just master).
+
+%gn
+reflog identity name
+
+%gN
+reflog identity name (respecting .mailmap, see git-shortlog[1] or git-blame[1])
+
+%ge
+reflog identity email
+
+%gE
+reflog identity email (respecting .mailmap, see git-shortlog[1] or git-blame[1])
+
+%gs
+reflog subject
+
+
+#command
+git --pretty=format:"%h --%an" -an author name
+
+
+git commit --amend  -type editor open and type any old commit file
+git restore --staged first_renamed.txt  #any file unstage korta gala
+git checkout -- first_rename.txt  # any file computer thaka delete hoya gala sa aber nia asa jai
+git checkout -f #1 step agar condition jata gala this command
+git remote -kono remote a6a kina check korar jonno 
+# git website run ar jonno github wesite all details
+git push -u origin master #git website push file
+
+
+
+
+
+
+
